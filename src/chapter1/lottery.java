@@ -6,8 +6,8 @@ import java.util.Collections;
 import java.util.List;
 
 public class lottery {
-    List<Integer> nums = new ArrayList<Integer>();
-    List<Integer> pickedNums = new ArrayList<Integer>();
+    private List<Integer> nums = new ArrayList<>();
+    private List<Integer> pickedNums = new ArrayList<>();
 
     public lottery() {
         fillList();

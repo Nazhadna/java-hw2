@@ -1,4 +1,5 @@
 import chapter1.*;
+import chapter1.Number;
 import chapter2.Car;
 import chapter2.Point;
 import chapter3.Department;
@@ -10,25 +11,24 @@ import chapter4.Rectangle;
 import chapter4.Shape;
 
 import java.util.Arrays;
-import java.util.Calendar;
 
 public class MainClass {
     public static void main(String[] args) {
 
         System.out.println("-------Ex1.1-------");
-        number n = new number(15);
+        Number n = new Number(15);
         System.out.println(n.makeBin());
         System.out.println(n.makeOctal());
         System.out.println(n.makeHex());
         System.out.println(n.makeReciprocalHex());
 
         System.out.println("-------Ex1.2-------");
-        angle a = new angle(-400);
+        Angle a = new Angle(-400);
         System.out.println(a.calculateNormAngle());
         System.out.println(a.calculateNormAngle1());
 
         System.out.println("-------Ex1.3-------");
-        max m = new max(9,6,5);
+        Max m = new Max(9,6,5);
         System.out.println(m.countMaxWithHands());
         System.out.println(m.countMax());
 
@@ -37,11 +37,10 @@ public class MainClass {
         System.out.println(Double.MAX_VALUE);
 
         System.out.println("-------Ex1.6-------");
-        factorial f = new factorial();
-        System.out.println(f.calculate(1000));
+        System.out.println(Factorial.calculate(1000));
 
         System.out.println("-------Ex1.13-------");
-        lottery l = new lottery();
+        Lottery l = new Lottery();
         System.out.println(Arrays.toString(l.getPickedNums().toArray()));
 
         System.out.println("-------Ex2.5-------");

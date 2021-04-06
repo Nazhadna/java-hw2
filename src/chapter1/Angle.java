@@ -1,9 +1,9 @@
 package chapter1;
 
-public class angle {
+public class Angle {
     private int angle;
 
-    public angle(int angle) {
+    public Angle(int angle) {
         this.angle = angle;
     }
 

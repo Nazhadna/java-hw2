@@ -1,9 +1,9 @@
 package chapter1;
 
-public class number {
+public class Number {
     private int numberInt;
 
-    public number(int numberInt) {
+    public Number(int numberInt) {
         this.numberInt = numberInt;
     }
 

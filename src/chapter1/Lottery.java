@@ -5,11 +5,11 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-public class lottery {
+public class Lottery {
     private List<Integer> nums = new ArrayList<>();
     private List<Integer> pickedNums = new ArrayList<>();
 
-    public lottery() {
+    public Lottery() {
         fillList();
 
         for (int i=0; i<6; i++)
